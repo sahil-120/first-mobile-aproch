@@ -1,0 +1,212 @@
+/* RESPOSIVE HOME SECTION */
+
+/* header */
+@media screen and (max-width: 500px) {
+    #home header #social-icons ul li:nth-of-type(5) {padding-right: 0} 
+}
+
+@media screen and (max-width: 400px) {
+    #home header #sign-btn, 
+    #home header #social-icons {display: none} 
+    #home header #responsive-menu {display: block} 
+}
+
+/* home content */
+@media screen and (max-width: 391px) {
+    #home #home-content {width: 200px}
+    #home #home-content h1 {font-size: 25px}
+    #home #home-content .btn {font-size: 13px}
+}
+
+@media screen and (max-width: 329px) {
+    
+    
+}
+
+
+/* RESPOSIVE TIMETABLE */
+
+/* about us */
+@media screen and (max-width: 1017px) {
+    #about #team-work .person {
+        width: 180px;
+        height: 180px;
+    }
+    #about #team-work .person:nth-of-type(3) {line-height: 180px}
+}
+
+@media screen and (max-width: 936px) {
+    #about #team-work .person {
+        width: 150px;
+        height: 150px;
+    }
+    #about #team-work .person:nth-of-type(3) {line-height: 150px}
+}
+
+@media screen and (max-width: 817px) {
+    #about #team-work .person {
+        width: 120px;
+        height: 120px;
+    }
+    #about #team-work .person:nth-of-type(3) {
+        font-size: 19px;
+        line-height: 120px
+    }
+}
+
+@media screen and (max-width: 697px) {
+    #about #team-work .person {
+        float: none;
+        width: 200px;
+        height: 200px;
+    }
+    #about #team-work .person:nth-of-type(3) {line-height: 200px;
+    font-size: 25px}
+}
+
+@media screen and (max-width: 425px) {
+    #about .lead {font-size: 80%}
+}
+
+
+
+@media screen and (max-width: 1283px) {
+    
+    #timetable article .info-box,
+    #timetable article:nth-of-type(2) .info-box,
+    #timetable article .img-box,
+    #timetable article:nth-of-type(2) .img-box {
+        width: 70%;
+        clear: both;
+        float: none;
+        padding: 0;
+        margin: 0 auto
+    }
+    
+    #timetable article .info-box,
+    #timetable article:nth-of-type(2) .info-box {padding-top: 10px}
+    
+}
+
+@media screen and (max-width: 620px) {
+    
+    #timetable article .info-box,
+    #timetable article:nth-of-type(2) .info-box,
+    #timetable article .img-box,
+    #timetable article:nth-of-type(2) .img-box {
+        width: 340px
+    }
+    
+    .spacing {padding: 60px 0 10px 0}
+    
+    #timetable article:nth-of-type(3).spacing {padding: 60px 0} 
+    
+}
+
+@media screen and (max-width: 442px) {
+    
+    #timetable article .info-box,
+    #timetable article:nth-of-type(2) .info-box,
+    #timetable article .img-box,
+    #timetable article:nth-of-type(2) .img-box {
+        width: 100%;
+        font-size: 90%
+    }
+    
+}
+
+
+/* RESPONSIVE PRO SECTION */
+@media screen and (max-width: 1360px) {
+    #pro #pro-offers {padding: 0}
+    #pro #pro-offers .card {float: none; transition: all .3s ease-in-out}
+    #pro #pro-offers .card .features {display: none}
+    #pro #pro-offers .card .card-btns {text-align: center}
+    #pro #pro-offers .card .btn:nth-of-type(3) {display: inline-block}
+}
+
+@media screen and (max-width: 461px) {
+    #pro #pro-offers .card {width: 250px}
+    
+    #pro #pro-offers .card .heading .name,
+    #pro #pro-offers .card .heading .price {
+        padding: 15px 0;
+        font-size: .8em
+    }
+    
+    #pro #pro-offers .card .btn:nth-of-type(1) {display: none}
+    #pro #pro-offers .card .btn:nth-of-type(2) {display: inline-block}
+}
+
+@media screen and (max-width: 380px) {
+    #pro #pro-offers .card {width: 200px;}
+    
+}
+
+/* RESPONSIVE FOOTER */
+@media screen and (max-width: 992px) {
+    footer {width:90%}
+}
+
+@media screen and (max-width: 742px) {
+    footer {margin-top: 10px}
+    footer #footer-icons ul li{display: none}
+    footer #footer-icons ul li:nth-of-type(6) {display: inline-block}
+}
+
+@media screen and (max-width: 486px) {
+    footer {border-radius: 20px}
+    footer #copyright {font-size: 80%}
+}
+
+@media screen and (max-width: 387px) {
+    footer #footer-icons ul li:nth-of-type(6) {display: none}
+    
+    footer {
+        padding: 0; 
+        text-align: center
+    }
+    footer .logo {
+        float: none;
+        display: inline-block; 
+        margin-top: 20px
+    }
+    footer #copyright {
+        border-radius: 0;
+        margin-top: 12px
+    }
+    
+}
+
+@media screen and (max-width: 328px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
